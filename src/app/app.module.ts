@@ -8,14 +8,18 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { navigationBar } from '../pages/navigation-bar/navigation-bar';
+import { NavigationBarPage } from '../pages/navigation-bar/navigation-bar';
+
+import { LocalPage } from '../pages/local/local';
+import { PopularPage } from '../pages/popular/popular';
+import { WhatNewPage } from '../pages/what-new/what-new';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ListPage,
-    navigationBar
+    NavigationBarPage
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,7 @@ import { navigationBar } from '../pages/navigation-bar/navigation-bar';
     MyApp,
     HomePage,
     ListPage,
-    navigationBar
+    NavigationBarPage
   ],
   providers: [
     StatusBar,
