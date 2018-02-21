@@ -6,12 +6,15 @@
     <ion-title>Explore</ion-title>
   </ion-navbar>
 </ion-header>
-
 <ion-content padding>
+  <ion-tabs>
+    <ion-tab [root]="whatNewRoot" tabTitle="What'snew">WHAT'NEW</ion-tab>
+    <ion-tab [root]="popularRoot" tabTitle="Popular" >POPULAR</ion-tab>
+    <ion-tab [root]="localRoot" tabTitle="Local" >LOCAL</ion-tab>
+</ion-tabs>
   <h3>Ionic Menu Starter</h3>
-
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
   </p>
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+
 </ion-content>
