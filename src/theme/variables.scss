@@ -86,3 +86,8 @@ $toolbar-background: color($colors, primary);
 
 @import "roboto";
 @import "noto-sans";
+
+div.promotedproducts img {
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
