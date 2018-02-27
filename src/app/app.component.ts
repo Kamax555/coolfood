@@ -2,7 +2,6 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-
 import { ListPage } from '../pages/list/list';
 import { NavigationBarPage } from '../pages/navigation-bar/navigation-bar';
 
