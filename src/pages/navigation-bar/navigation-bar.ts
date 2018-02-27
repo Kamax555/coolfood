@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController } from 'ionic-angular';
+import { WhatNewPage} from '../what-new/what-new';
+import { LocalPage } from '../local/local';
+import { PopularPage }from '../popular/popular';
 
 /**
  * Generated class for the NavigationBarPage tabs.
@@ -15,11 +18,21 @@ import { IonicPage, NavController } from 'ionic-angular';
 })
 export class NavigationBarPage {
 
-  whatNewRoot = 'WhatNewPage'
-  popularRoot = 'PopularPage'
-  localRoot = 'LocalPage'
+//  whatNewRoot = 'WhatNewPage'
+//  popularRoot = 'PopularPage'
+ // localRoot = 'LocalPage'
 
 
   constructor(public navCtrl: NavController) {}
+
+
+
+loader(){
+  console.log("navibar is loading ");
+}
+
+whatNewRoot = 'WhatNewPage';
+popularRoot = 'PopularPage';
+localRoot = 'LocalPage';
 
 }

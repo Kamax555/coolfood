@@ -34,7 +34,7 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #00675E,
+  primary:    #009688,
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
@@ -53,8 +53,8 @@ $colors: (
 // --------------------------------------------------
 // Material Design only Sass variables can go here
 $toolbar-background: color($colors, primary);
-
-
+$tabs-md-tab-text-color-active: color($colors, light);
+$tabs-md-tab-text-color: #A1C0BD;
 
 // App Windows Variables
 // --------------------------------------------------
@@ -86,3 +86,8 @@ $toolbar-background: color($colors, primary);
 
 @import "roboto";
 @import "noto-sans";
+
+div.promotedproducts img {
+    margin-right: 10%;
+    margin-bottom: 5%;
+}

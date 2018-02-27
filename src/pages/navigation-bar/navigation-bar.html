@@ -1,5 +1,15 @@
-<ion-tabs>
-    <ion-tab [root]="whatNewRoot" tabTitle="What new" tabIcon="information-circle">WHAT'NEW</ion-tab>
-    <ion-tab [root]="popularRoot" tabTitle="Popular" tabIcon="information-circle">POPULAR</ion-tab>
-    <ion-tab [root]="localRoot" tabTitle="Local" tabIcon="information-circle">LOCAL</ion-tab>
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Explore</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <ion-tabs>
+    <ion-tab [root]="whatNewRoot" tabTitle="What'snew">WHAT'NEW</ion-tab>
+    <ion-tab [root]="popularRoot" tabTitle="Popular" >POPULAR</ion-tab>
+    <ion-tab [root]="localRoot" tabTitle="Local" >LOCAL</ion-tab>
 </ion-tabs>
+</ion-content>
