@@ -1,8 +1,8 @@
 This is an discount application made to be a demo for "Planning of a Internet-based project" -course 
 by 3rd year students of Oulu University of applied sciences. 
 
-Test run for the application results error on load. Menu bar disappears.
+Application is again tested after set of conflicts.
 
-The routing works.
+Conflicts are fixed.
 
-Page 3 is in progress.
+Menu dissappears on reload. 
