@@ -10,6 +10,13 @@
 
 
 <ion-content padding>
-<h1>this what is new page</h1>
-<ion-img width="100%" height="30%" src="../../assets/imgs/deal.PNG"></ion-img>
+  <!--
+
+<ion-img width="100%" height="30%" src="../../assets/imgs/deal.PNG"></ion-img>-->
+
+<ion-slides loop="true">
+    <ion-slide *ngFor="let image of [1,2,3,4]">
+      <img data-src="./assets/carousel/Screen{{image}}.png">
+    </ion-slide>
+  </ion-slides>
 </ion-content>
